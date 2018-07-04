@@ -10,6 +10,7 @@ module.exports = {
     output: {
         filename: 'leaflet.pm.min.js',
         path: path.resolve(__dirname, 'dist'),
+        publicPath: 'dist',
     },
     module: {
         rules: [
@@ -37,4 +38,9 @@ module.exports = {
         ],
     },
     plugins: [new ExtractTextPlugin('leaflet.pm.css')],
+    devServer: {
+        port: 8000,
+        contentBase: './demo/',
+        openPage: 'index-canvas.html',
+    },
 };
