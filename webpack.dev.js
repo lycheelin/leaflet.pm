@@ -41,6 +41,6 @@ module.exports = {
     devServer: {
         port: 8000,
         contentBase: './demo/',
-        openPage: 'index-canvas.html',
+        openPage: 'index-new.html',
     },
 };

@@ -7,3 +7,5 @@ npm-debug.log
 \.source*
 /cypress/screenshots
 /cypress/videos
+/demo/data/*
+/yarn.lock

@@ -5,7 +5,7 @@
         "no-underscore-dangle": 0,
         "keyword-spacing": 0,
         "no-param-reassign": 0,
-        "max-len": ["error", 140],
+        "max-len": ["error", 180],
         "no-restricted-syntax": 0,
         "guard-for-in": 0,
         "linebreak-style": 0
